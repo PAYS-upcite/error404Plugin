@@ -1,15 +1,14 @@
 <?php
 /**
- * @file plugins/generic/customPageError/CustomPageErrorPlugin.inc.php
+ * @file plugins/generic/error404/Error404PluginHandler.inc.php
  *
- * Copyright (c) 2014-2021 Simon Fraser University
- * Copyright (c) 2003-2021 John Willinsky
- * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ * Copyright (c) 2022-2023 Bourrand Erwan
+ * Distributed under the GNU GPL v3.
  *
- * @class CustomPageErrorPlugin
+ * @class Error404PluginHandler
  * @ingroup plugins_generic_error404
  *
- * @brief Clear the CSS and Template cache on every page load.
+ * @brief handle call to display 404 error static page.
  */
 
 import('classes.handler.Handler');

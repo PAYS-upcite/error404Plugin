@@ -9,7 +9,6 @@
  *}
 
 {* passing variable *}
-{assign var="pageTitleTranslated" value=$currentJournal->getLocalizedName()}
 
 {include file="frontend/components/header.tpl" pageTitle="about.aboutContext"}
 

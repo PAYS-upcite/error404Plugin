@@ -1,6 +1,6 @@
 # Custom Page 404
 
-This is a plugin whose purpose is to redirect 404 errors toward a proper custom page.
+This is a plugin whose purpose is to redirect 404 errors to a proper 404 static page.
 
 Developer: Erwan Bourrand
 

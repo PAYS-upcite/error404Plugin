@@ -5,7 +5,7 @@ This is a plugin whose purpose is to redirect 404 errors to a proper 404 static 
 
 Developer: Erwan Bourrand
 
-Live demonstration instance: https://emerging-neurologist.org/wrong_Url__
+Live demonstration instance: https://emerging-neurologist.org/wrong_url343ezfz
 
 ## How to use
 1. Download the tar.gz release.

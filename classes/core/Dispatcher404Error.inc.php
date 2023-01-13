@@ -28,8 +28,7 @@ class Dispatcher404Error extends Dispatcher{
 	}
 	
 	function handle404() {
-		$baseUrl = $this->_application->getRequest()->getBaseUrl();
-		header("Location: ".$baseUrl."/404");
+		header("Location: ".$this->_application->getRequest()->url(null, '404'));
 		fatalError('404 Not Found');
 	}
 }

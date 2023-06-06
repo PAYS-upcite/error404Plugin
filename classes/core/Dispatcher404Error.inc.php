@@ -13,6 +13,9 @@
 
 import('lib.pkp.classes.core.Dispatcher');
 
+use PKP\core\Dispatcher;
+use APP\core\Application;
+
 class Dispatcher404Error extends Dispatcher{
 
 	function __construct(Dispatcher $dispatcher) {
@@ -27,8 +30,8 @@ class Dispatcher404Error extends Dispatcher{
 		$this->_requestCallbackHack = $dispatcher->_requestCallbackHack;
 	}
 	
-	function handle404() {
-		header("Location: ".$this->_application->getRequest()->url(null, '404'));
+	public static function handle404() {
+		header("Location: ".Application::get()->getRequest()->url(null, '404'));
 		fatalError('404 Not Found');
 	}
 }

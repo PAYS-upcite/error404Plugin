@@ -10,7 +10,7 @@
 
 {* passing variable *}
 
-{include file="frontend/components/header.tpl" pageTitle="about.aboutContext"}
+{include file="frontend/components/header.tpl" pageTitle="plugins.generic.error404.title"}
 
 {block name="informationalContent"}
 	<h1 class="mb-4">{translate|escape key="plugins.generic.error404.title"}</h1>

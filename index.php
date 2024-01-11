@@ -1,19 +1,22 @@
 <?php
 
 /**
- * @defgroup plugins_generic_error404
+ * @defgroup plugins_generic_cachebuster
  */
 
 /**
- * @file plugins/generic/error404/index.php
+ * @file plugins/generic/cacheBuster/index.php
  *
- * Copyright (c) 2022-2023 Bourrand Erwan
- * Distributed under the GNU GPL v3.
+ * Copyright (c) 2014-2017 Simon Fraser University
+ * Copyright (c) 2003-2017 John Willinsky
+ * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
  *
- * @ingroup plugins_generic_error404
- * @brief Wrapper for the Error 404 Page plugin.
+ * @ingroup plugins_generic_cachebuster
+ * @brief Wrapper for the Cache Buster plugin.
  *
  */
 require_once('Error404Plugin.inc.php');
 
 return new Error404Plugin();
+
+?>

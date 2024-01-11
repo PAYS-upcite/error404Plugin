@@ -2,7 +2,7 @@
 <!DOCTYPE version SYSTEM "../../../lib/pkp/dtd/pluginVersion.dtd">
 
 <!--
-  * plugins/generic/customPageError/version.xml
+  * plugins/generic/error404/version.xml
   *
   * Copyright (c) 2022-2023 Bourrand Erwan
   * Distributed under the GNU GPL v3.

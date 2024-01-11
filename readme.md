@@ -15,4 +15,4 @@ Live demonstration instance:
 3. Search "Error 404 Handler" plugin in "Generic Plugins" section and enable it.
 
 ## Licensing
-The oldGregg theme is licensed under GPLv3. 
+The Custom Page 404 plugin is licensed under GPLv3. 

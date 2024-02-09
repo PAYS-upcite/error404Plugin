@@ -31,7 +31,9 @@ class Dispatcher404Error extends Dispatcher{
 	}
 	
 	public static function handle404() {
-		header("Location: ".Application::get()->getRequest()->url(null, '404'));
-		fatalError('404 Not Found');
+		header("HTTP/1.1 404 Not Found");
+		$templateMgr = TemplateManager::getManager(Application::get()->getRequest());
+		$templateMgr->display('plugins/generic/error404/templates/frontend/pages/page404.tpl');
+		exit;
 	}
 }

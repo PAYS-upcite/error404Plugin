@@ -12,8 +12,8 @@
 <version>
 	<application>error404</application>
 	<type>plugins.generic</type>
-	<release>1.0.1.0</release>
-	<date>2023-01-02</date>
+	<release>1.1.0.0</release>
+	<date>2024-02-09</date>
 	<lazy-load>1</lazy-load>
 	<class>Error404Plugin</class>
 </version>
